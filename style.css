@@ -51,10 +51,14 @@ NAVBAR ↓
 
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 32px;
 }
 
+
 .nav__row {
+
     display: flex;
     justify-content: space-between;
 }
@@ -62,8 +66,9 @@ nav {
 .nav__logo {
     display: flex;
     align-items: center;
-    margin: 8px 0;
+    margin: 4px 0;
     padding-bottom: 4px;
+    padding-right: 16px;
 }
 
 
