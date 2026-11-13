@@ -445,10 +445,37 @@ STEPS ↓
 
 */
 
-#steps .row {
+.row {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.steps-image {
+  max-width: 50%;
+}
+
+.steps-image img {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+}
+
+.steps-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.steps-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* 
