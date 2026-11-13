@@ -98,7 +98,12 @@ nav {
   border-bottom: 2px solid transparent;
   position: relative;
   transition: all 300ms;
-  margin: 0 24px;
+  margin: 0 0px;
+
+  text-decoration: none;
+}
+.nav__link:hover {
+  text-decoration: underline;
 }
 
 .login {
@@ -269,9 +274,8 @@ header__image {
 }
 
 .trusted-customers {
-  margin: 40px 0;
-  margin-top: 70px;
-  margin-left: 0;
+  margin-top: 100px;
+  text-align: center;
 }
 
 .trusted-customers img {
@@ -282,10 +286,9 @@ header__image {
 
 .trusted-customers h2 {
   font-size: 12px;
-  color: rgb(197, 188, 188);
-  font-weight: 500;
-  margin-bottom: 16px;
-  margin-left: 0;
+  color: rgb(107, 103, 103);
+  font-weight: 700;
+  margin: 0 0 16px;
 }
 
 .customers-logo-strip img {
@@ -316,17 +319,22 @@ FEATURES ↓
 }
 
 h2 {
-  display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
   font-weight: bold;
   color: #6415ff;
+  align-items: center;
+  margin-bottom: 24px;
 }
 
 h1 {
   display: block;
-  font-size: 60px;
-  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 24px;
 }
 
 h3 {
@@ -334,13 +342,14 @@ h3 {
   font-weight: bold;
   margin-bottom: 16px;
 }
-
 p {
-  font-size: 24px;
+  font-size: 16px;
   line-height: 2;
   margin-bottom: 24px;
+  text-align: center;
   margin: 0 0 24;
   color: gray;
+  margin-bottom: 80px;
 }
 
 .features-list {
@@ -363,6 +372,13 @@ p {
   flex-shrink: 0;
 }
 
+.feature-icon {
+  border: 1px solid #cccfd4;
+  font-size: 52px;
+  border-radius: 100%;
+  padding: 5px;
+}
+
 .feature-text {
   flex: 1;
 }
@@ -373,10 +389,66 @@ QUALITY WORK ↓
 
 */
 
-#quality .row {
+#quality {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.quality-description {
+  flex: 1;
+  padding: 20%;
+  text-align: left;
+}
+
+.quality-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quality-image img {
+  max-width: 200%;
+  height: autox;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#quality h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#quality h1,
+#quality p {
+  margin: 10px 0;
+}
+
+.btn {
+  border: none;
+  background-color: #6415ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 300ms ease;
+}
+
+.btn:hover {
+  background-color: #5000ff;
 }
 
 /* 
