@@ -342,6 +342,7 @@ h3 {
   font-weight: bold;
   margin-bottom: 16px;
 }
+
 p {
   font-size: 16px;
   line-height: 2;
@@ -391,8 +392,8 @@ QUALITY WORK ↓
 
 #quality {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   height: 100vh;
 }
 
@@ -404,7 +405,7 @@ QUALITY WORK ↓
 .quality-description {
   flex: 1;
   padding: 20%;
-  text-align: left;
+  text-align: center;
 }
 
 .quality-image {
@@ -416,12 +417,12 @@ QUALITY WORK ↓
 
 .quality-image img {
   max-width: 200%;
-  height: autox;
+  height: auto;
 }
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   text-align: center;
 }
@@ -429,12 +430,12 @@ QUALITY WORK ↓
 #quality h2 {
   font-size: 30px;
   font-weight: bold;
-  margin: 0;
+  margin-left: 0px;
 }
 
 #quality h1,
 #quality p {
-  margin: 10px 0;
+  margin-left: 0px;
 }
 
 .btn {
