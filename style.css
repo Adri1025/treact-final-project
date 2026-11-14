@@ -453,7 +453,7 @@ STEPS ↓
 
 .steps-image,
 .steps-content {
-  width: 50%;
+  width: 100%;
 }
 
 .steps-content {
@@ -468,13 +468,43 @@ STEPS ↓
   justify-content: center;
 }
 
-#steps h1 #steps h2,
+.steps-description .step {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#steps h1,
+#steps h2,
 #steps p {
   text-align: left;
+  margin-bottom: 24px;
 }
 
 #steps h2 {
   justify-content: flex-start;
+}
+
+.steps-text {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.step-number {
+  font-size: 48px;
+  font-weight: 600;
+  color: #cbd5e0;
+  margin-right: auto;
+}
+
+#steps .steps-text {
+  font-size: 20px;
+}
+
+#steps .steps-text p {
+  margin-bottom: 0;
 }
 
 /* 
