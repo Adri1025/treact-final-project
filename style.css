@@ -322,7 +322,7 @@ h2 {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-size: 15px;
+  font-size: 22px;
   font-weight: bold;
   color: #6415ff;
   align-items: center;
@@ -415,6 +415,7 @@ QUALITY WORK ↓
 
 #quality h2 {
   justify-content: flex-start;
+  font-size: 22px;
 }
 
 #quality h1,
@@ -475,11 +476,11 @@ STEPS ↓
 }
 
 #steps h1 {
-  text-align: center;
-  justify-content: flex-start;
-  display: flex;
   font-size: 50px;
-  font-weight: bold;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 #steps h2 {
@@ -524,7 +525,7 @@ STEPS ↓
   font-weight: 600;
   color: #cbd5e0;
   min-width: 24px;
-  margin-right: 100px;
+  margin-right: 24px;
 }
 
 #steps .steps-text p {
