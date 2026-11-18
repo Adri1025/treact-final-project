@@ -554,6 +554,33 @@ VALUES ↓
   align-items: center;
 }
 
+.values-description {
+  align-items: flex-start;
+  text-align: left;
+  max-width: 100px;
+  display: flex;
+}
+
+p {
+  text-align: left;
+  margin-bottom: 24px;
+  color: gray;
+}
+
+.values-image {
+  max-width: 50%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 /*
 
 PRICING ↓
